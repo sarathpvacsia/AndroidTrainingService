@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=""
+        android:padding="5dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonThreadStarter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewthreadCount"
+        android:text="@string/string_startservice" />
+
+    <Button
+        android:id="@+id/buttonStopthread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonThreadStarter"
+        android:layout_marginTop="10dp"
+        android:text="@string/string_stopservice" />
+
+    <Button
+        android:id="@+id/buttonBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonStopthread"
+        android:layout_marginTop="10dp"
+        android:text="@string/string_bind" />
+
+    <Button
+        android:id="@+id/buttonUnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonBindService"
+        android:layout_marginTop="10dp"
+        android:text="@string/string_unbind" />
+
+    <Button
+        android:id="@+id/buttonGetRandomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUnBindService"
+        android:layout_marginTop="10dp"
+        android:text="@string/string_getrandom_number" />
+
+
+</LinearLayout>
