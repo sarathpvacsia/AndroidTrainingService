@@ -1,2 +1,2 @@
-# AndroidTrainingService
+# AndroidTraining-Services
 Android Tutorial : Services
